@@ -1,0 +1,57 @@
+{
+  "Main" : {
+    "title" : {
+      "type" : "StructuredText",
+      "config" : {
+        "single" : "heading1,heading2,heading3,heading4,heading5,heading6",
+        "label" : "Title"
+      }
+    },
+    "description" : {
+      "type" : "StructuredText",
+      "config" : {
+        "multi" : "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl",
+        "label" : "Description"
+      }
+    },
+    "year" : {
+      "type" : "StructuredText",
+      "config" : {
+        "multi" : "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl",
+        "label" : "Year"
+      }
+    },
+    "spreads" : {
+      "type" : "Group",
+      "config" : {
+        "fields" : {
+          "spread" : {
+            "type" : "Image",
+            "config" : {
+              "constraint" : { },
+              "thumbnails" : [ {
+                "name" : "Small",
+                "width" : 320,
+                "height" : null
+              }, {
+                "name" : "Medium",
+                "width" : 640,
+                "height" : null
+              }, {
+                "name" : "Large",
+                "width" : 1280,
+                "height" : null
+              }, {
+                "name" : "Huge",
+                "width" : 1920,
+                "height" : null
+              } ],
+              "label" : "Spread"
+            }
+          }
+        },
+        "label" : "Spreads"
+      }
+    }
+  }
+}

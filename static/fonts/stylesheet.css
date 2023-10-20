@@ -1,0 +1,208 @@
+@font-face {
+    font-family: 'Suisse';
+    src: url('./SuisseBPIntl-Black.eot');
+    src: url('./SuisseBPIntl-Black.eot?#iefix') format('embedded-opentype'),
+        url('./SuisseBPIntl-Black.woff2') format('woff2'),
+        url('./SuisseBPIntl-Black.woff') format('woff'),
+        url('./SuisseBPIntl-Black.ttf') format('truetype'),
+        url('./SuisseBPIntl-Black.svg#SuisseBPIntl-Black') format('svg');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Suisse';
+    src: url('./SuisseBPIntl-MediumItalic.eot');
+    src: url('./SuisseBPIntl-MediumItalic.eot?#iefix') format('embedded-opentype'),
+        url('./SuisseBPIntl-MediumItalic.woff2') format('woff2'),
+        url('./SuisseBPIntl-MediumItalic.woff') format('woff'),
+        url('./SuisseBPIntl-MediumItalic.ttf') format('truetype'),
+        url('./SuisseBPIntl-MediumItalic.svg#SuisseBPIntl-MediumItalic') format('svg');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Suisse Antique';
+    src: url('./SuisseBPIntl-Antique.eot');
+    src: url('./SuisseBPIntl-Antique.eot?#iefix') format('embedded-opentype'),
+        url('./SuisseBPIntl-Antique.woff2') format('woff2'),
+        url('./SuisseBPIntl-Antique.woff') format('woff'),
+        url('./SuisseBPIntl-Antique.ttf') format('truetype'),
+        url('./SuisseBPIntl-Antique.svg#SuisseBPIntl-Antique') format('svg');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Suisse';
+    src: url('./SuisseBPIntl-BoldItalic.eot');
+    src: url('./SuisseBPIntl-BoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('./SuisseBPIntl-BoldItalic.woff2') format('woff2'),
+        url('./SuisseBPIntl-BoldItalic.woff') format('woff'),
+        url('./SuisseBPIntl-BoldItalic.ttf') format('truetype'),
+        url('./SuisseBPIntl-BoldItalic.svg#SuisseBPIntl-BoldItalic') format('svg');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Suisse';
+    src: url('./SuisseBPIntl-LightItalic.eot');
+    src: url('./SuisseBPIntl-LightItalic.eot?#iefix') format('embedded-opentype'),
+        url('./SuisseBPIntl-LightItalic.woff2') format('woff2'),
+        url('./SuisseBPIntl-LightItalic.woff') format('woff'),
+        url('./SuisseBPIntl-LightItalic.ttf') format('truetype'),
+        url('./SuisseBPIntl-LightItalic.svg#SuisseBPIntl-LightItalic') format('svg');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Suisse';
+    src: url('./SuisseBPIntl-RegularItalic.eot');
+    src: url('./SuisseBPIntl-RegularItalic.eot?#iefix') format('embedded-opentype'),
+        url('./SuisseBPIntl-RegularItalic.woff2') format('woff2'),
+        url('./SuisseBPIntl-RegularItalic.woff') format('woff'),
+        url('./SuisseBPIntl-RegularItalic.ttf') format('truetype'),
+        url('./SuisseBPIntl-RegularItalic.svg#SuisseBPIntl-RegularItalic') format('svg');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Suisse Antique';
+    src: url('./SuisseBPIntl-AntiqueItalic.eot');
+    src: url('./SuisseBPIntl-AntiqueItalic.eot?#iefix') format('embedded-opentype'),
+        url('./SuisseBPIntl-AntiqueItalic.woff2') format('woff2'),
+        url('./SuisseBPIntl-AntiqueItalic.woff') format('woff'),
+        url('./SuisseBPIntl-AntiqueItalic.ttf') format('truetype'),
+        url('./SuisseBPIntl-AntiqueItalic.svg#SuisseBPIntl-AntiqueItalic') format('svg');
+    font-weight: 600;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Suisse';
+    src: url('./SuisseBPIntl-ThinItalic.eot');
+    src: url('./SuisseBPIntl-ThinItalic.eot?#iefix') format('embedded-opentype'),
+        url('./SuisseBPIntl-ThinItalic.woff2') format('woff2'),
+        url('./SuisseBPIntl-ThinItalic.woff') format('woff'),
+        url('./SuisseBPIntl-ThinItalic.ttf') format('truetype'),
+        url('./SuisseBPIntl-ThinItalic.svg#SuisseBPIntl-ThinItalic') format('svg');
+    font-weight: 100;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Suisse';
+    src: url('./SuisseBPIntl-Regular.eot');
+    src: url('./SuisseBPIntl-Regular.eot?#iefix') format('embedded-opentype'),
+        url('./SuisseBPIntl-Regular.woff2') format('woff2'),
+        url('./SuisseBPIntl-Regular.woff') format('woff'),
+        url('./SuisseBPIntl-Regular.ttf') format('truetype'),
+        url('./SuisseBPIntl-Regular.svg#SuisseBPIntl-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Suisse';
+    src: url('./SuisseBPIntl-Medium.eot');
+    src: url('./SuisseBPIntl-Medium.eot?#iefix') format('embedded-opentype'),
+        url('./SuisseBPIntl-Medium.woff2') format('woff2'),
+        url('./SuisseBPIntl-Medium.woff') format('woff'),
+        url('./SuisseBPIntl-Medium.ttf') format('truetype'),
+        url('./SuisseBPIntl-Medium.svg#SuisseBPIntl-Medium') format('svg');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Suisse';
+    src: url('./SuisseBPIntl-Light.eot');
+    src: url('./SuisseBPIntl-Light.eot?#iefix') format('embedded-opentype'),
+        url('./SuisseBPIntl-Light.woff2') format('woff2'),
+        url('./SuisseBPIntl-Light.woff') format('woff'),
+        url('./SuisseBPIntl-Light.ttf') format('truetype'),
+        url('./SuisseBPIntl-Light.svg#SuisseBPIntl-Light') format('svg');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Suisse';
+    src: url('./SuisseBPIntl-UltraLightItalic.eot');
+    src: url('./SuisseBPIntl-UltraLightItalic.eot?#iefix') format('embedded-opentype'),
+        url('./SuisseBPIntl-UltraLightItalic.woff2') format('woff2'),
+        url('./SuisseBPIntl-UltraLightItalic.woff') format('woff'),
+        url('./SuisseBPIntl-UltraLightItalic.ttf') format('truetype'),
+        url('./SuisseBPIntl-UltraLightItalic.svg#SuisseBPIntl-UltraLightItalic') format('svg');
+    font-weight: 200;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Suisse';
+    src: url('./SuisseBPIntl-BlackItalic.eot');
+    src: url('./SuisseBPIntl-BlackItalic.eot?#iefix') format('embedded-opentype'),
+        url('./SuisseBPIntl-BlackItalic.woff2') format('woff2'),
+        url('./SuisseBPIntl-BlackItalic.woff') format('woff'),
+        url('./SuisseBPIntl-BlackItalic.ttf') format('truetype'),
+        url('./SuisseBPIntl-BlackItalic.svg#SuisseBPIntl-BlackItalic') format('svg');
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Suisse';
+    src: url('./SuisseBPIntl-UltraLight.eot');
+    src: url('./SuisseBPIntl-UltraLight.eot?#iefix') format('embedded-opentype'),
+        url('./SuisseBPIntl-UltraLight.woff2') format('woff2'),
+        url('./SuisseBPIntl-UltraLight.woff') format('woff'),
+        url('./SuisseBPIntl-UltraLight.ttf') format('truetype'),
+        url('./SuisseBPIntl-UltraLight.svg#SuisseBPIntl-UltraLight') format('svg');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Suisse';
+    src: url('./SuisseBPIntl-Bold.eot');
+    src: url('./SuisseBPIntl-Bold.eot?#iefix') format('embedded-opentype'),
+        url('./SuisseBPIntl-Bold.woff2') format('woff2'),
+        url('./SuisseBPIntl-Bold.woff') format('woff'),
+        url('./SuisseBPIntl-Bold.ttf') format('truetype'),
+        url('./SuisseBPIntl-Bold.svg#SuisseBPIntl-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Suisse';
+    src: url('./SuisseBPIntl-Thin.eot');
+    src: url('./SuisseBPIntl-Thin.eot?#iefix') format('embedded-opentype'),
+        url('./SuisseBPIntl-Thin.woff2') format('woff2'),
+        url('./SuisseBPIntl-Thin.woff') format('woff'),
+        url('./SuisseBPIntl-Thin.ttf') format('truetype'),
+        url('./SuisseBPIntl-Thin.svg#SuisseBPIntl-Thin') format('svg');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+

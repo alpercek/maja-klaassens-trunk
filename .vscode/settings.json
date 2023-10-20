@@ -1,0 +1,5 @@
+{
+  "eslint.enable": true,
+  "workbench.preferredDarkColorTheme": "Solarized Dark",
+  "workbench.colorTheme": "dark-plus-syntax"
+}

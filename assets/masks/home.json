@@ -1,0 +1,78 @@
+{
+  "Main" : {
+    "title" : {
+      "type" : "StructuredText",
+      "config" : {
+        "single" : "heading1,heading2,heading3,heading4,heading5,heading6",
+        "label" : "Title",
+        "placeholder" : "How it appears in the menu"
+      }
+    },
+    "favicon" : {
+      "type" : "Image",
+      "config" : {
+        "constraint" : {
+          "width" : 512,
+          "height" : 512
+        },
+        "thumbnails" : [ ],
+        "label" : "Favicon"
+      }
+    },
+    "menu" : {
+      "type" : "Group",
+      "config" : {
+        "fields" : {
+          "page" : {
+            "type" : "Link",
+            "config" : {
+              "select" : "document",
+              "label" : "Page"
+            }
+          }
+        },
+        "label" : "Menu"
+      }
+    },
+    "works" : {
+      "type" : "Group",
+      "config" : {
+        "fields" : {
+          "work" : {
+            "type" : "Link",
+            "config" : {
+              "select" : "document",
+              "customtypes" : [ "work" ],
+              "label" : "Work"
+            }
+          },
+          "width_tablet" : {
+            "type" : "Select",
+            "config" : {
+              "options" : [ "full", "4/5", "3/4", "2/3", "3/5", "1/2", "2/5", "1/3", "1/4", "1/5" ],
+              "label" : "Width Tablet",
+              "placeholder" : "Width for medium-sized screens"
+            }
+          },
+          "width" : {
+            "type" : "Select",
+            "config" : {
+              "options" : [ "full", "4/5", "3/4", "2/3", "3/5", "1/2", "2/5", "1/3", "1/4", "1/5" ],
+              "label" : "Width",
+              "placeholder" : "Width for desktop screens"
+            }
+          },
+          "width_xl" : {
+            "type" : "Select",
+            "config" : {
+              "options" : [ "full", "4/5", "3/4", "2/3", "3/5", "1/2", "2/5", "1/3", "1/4", "1/5" ],
+              "label" : "Width XL",
+              "placeholder" : "Width for XL screens"
+            }
+          }
+        },
+        "label" : "Works"
+      }
+    }
+  }
+}

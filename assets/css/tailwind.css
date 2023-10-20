@@ -1,0 +1,18 @@
+/* purgecss start ignore */
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+/* purgecss end ignore */
+@import 'tailwindcss/utilities';
+
+/* my own */
+@import '~assets/fonts/stylesheet.css';
+@import '~assets/css/typography.css';
+@import '~assets/css/hamburgers.css';
+/* purgecss start ignore */
+@import '~assets/css/grid.css';
+@import 'swiper/dist/css/swiper.css';
+/* purgecss end ignore */
+
+*:focus {
+  outline: none;
+}

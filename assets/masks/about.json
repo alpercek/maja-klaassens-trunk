@@ -1,0 +1,235 @@
+{
+  "Main" : {
+    "title" : {
+      "type" : "StructuredText",
+      "config" : {
+        "single" : "heading1,heading2,heading3,heading4,heading5,heading6",
+        "label" : "Title"
+      }
+    },
+    "bio" : {
+      "type" : "StructuredText",
+      "config" : {
+        "multi" : "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl",
+        "label" : "Bio"
+      }
+    },
+    "address" : {
+      "type" : "StructuredText",
+      "config" : {
+        "multi" : "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl",
+        "label" : "Address"
+      }
+    },
+    "header_image" : {
+      "type" : "Image",
+      "config" : {
+        "constraint" : { },
+        "thumbnails" : [ {
+          "name" : "Small",
+          "width" : 320,
+          "height" : null
+        }, {
+          "name" : "Medium",
+          "width" : 640,
+          "height" : null
+        }, {
+          "name" : "Large",
+          "width" : 1280,
+          "height" : null
+        }, {
+          "name" : "Huge",
+          "width" : 1920,
+          "height" : null
+        } ],
+        "label" : "Header Image"
+      }
+    },
+    "body" : {
+      "type" : "Slices",
+      "fieldset" : "Slice zone",
+      "config" : {
+        "labels" : null,
+        "choices" : {
+          "cv_section__simple_" : {
+            "type" : "Slice",
+            "fieldset" : "CV Section (Simple)",
+            "description" : "Single column with text",
+            "icon" : "format_color_text",
+            "display" : "list",
+            "non-repeat" : {
+              "title1" : {
+                "type" : "StructuredText",
+                "config" : {
+                  "multi" : "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl",
+                  "label" : "Title"
+                }
+              },
+              "text" : {
+                "type" : "StructuredText",
+                "config" : {
+                  "multi" : "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl",
+                  "label" : "Text"
+                }
+              }
+            },
+            "repeat" : { }
+          },
+          "cv_section__two_columns_" : {
+            "type" : "Slice",
+            "fieldset" : "CV Section (Two Columns)",
+            "description" : "A section in the ",
+            "icon" : "view_column",
+            "display" : "list",
+            "non-repeat" : {
+              "title1" : {
+                "type" : "StructuredText",
+                "config" : {
+                  "single" : "heading1,heading2,heading3,heading4,heading5,heading6",
+                  "label" : "Title"
+                }
+              }
+            },
+            "repeat" : {
+              "column_1" : {
+                "type" : "StructuredText",
+                "config" : {
+                  "multi" : "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl",
+                  "label" : "Column 1"
+                }
+              },
+              "column_2" : {
+                "type" : "StructuredText",
+                "config" : {
+                  "multi" : "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl",
+                  "label" : "Column 2"
+                }
+              }
+            }
+          },
+          "cv_section__two_columns_image" : {
+            "type" : "Slice",
+            "fieldset" : "CV Section (Two Columns + Image)",
+            "description" : "A section in the CV ",
+            "icon" : "image",
+            "display" : "list",
+            "non-repeat" : {
+              "title1" : {
+                "type" : "StructuredText",
+                "config" : {
+                  "single" : "heading1,heading2,heading3,heading4,heading5,heading6",
+                  "label" : "Title"
+                }
+              }
+            },
+            "repeat" : {
+              "image" : {
+                "type" : "Image",
+                "config" : {
+                  "constraint" : { },
+                  "thumbnails" : [ {
+                    "name" : "Small",
+                    "width" : 320,
+                    "height" : null
+                  }, {
+                    "name" : "Medium",
+                    "width" : 640,
+                    "height" : null
+                  }, {
+                    "name" : "Large",
+                    "width" : 1280,
+                    "height" : null
+                  }, {
+                    "name" : "Huge",
+                    "width" : 1920,
+                    "height" : null
+                  } ],
+                  "label" : "Rollover Image"
+                }
+              },
+              "column_1" : {
+                "type" : "StructuredText",
+                "config" : {
+                  "multi" : "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl",
+                  "label" : "Column 1"
+                }
+              },
+              "column_2" : {
+                "type" : "StructuredText",
+                "config" : {
+                  "multi" : "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl",
+                  "label" : "Column 2"
+                }
+              }
+            }
+          },
+          "cv_section__publications_" : {
+            "type" : "Slice",
+            "fieldset" : "CV Section (Publications)",
+            "description" : "Publications",
+            "icon" : "image",
+            "display" : "list",
+            "non-repeat" : {
+              "title1" : {
+                "type" : "StructuredText",
+                "config" : {
+                  "single" : "heading1,heading2,heading3,heading4,heading5,heading6",
+                  "label" : "Title"
+                }
+              }
+            },
+            "repeat" : {
+              "publication" : {
+                "type" : "Link",
+                "config" : {
+                  "select" : "document",
+                  "customtypes" : [ "publication" ],
+                  "label" : "Publication"
+                }
+              }
+            }
+          },
+          "press" : {
+            "type" : "Slice",
+            "fieldset" : "CV Section (Paragraph)",
+            "description" : "CV Section with paragraph",
+            "icon" : "wallpaper",
+            "display" : "list",
+            "non-repeat" : {
+              "title1" : {
+                "type" : "StructuredText",
+                "config" : {
+                  "single" : "heading1,heading2,heading3,heading4,heading5,heading6",
+                  "label" : "Title"
+                }
+              }
+            },
+            "repeat" : {
+              "year" : {
+                "type" : "StructuredText",
+                "config" : {
+                  "multi" : "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl",
+                  "label" : "Year"
+                }
+              },
+              "paragraph" : {
+                "type" : "StructuredText",
+                "config" : {
+                  "multi" : "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl",
+                  "label" : "Paragraph"
+                }
+              },
+              "title1" : {
+                "type" : "StructuredText",
+                "config" : {
+                  "multi" : "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl",
+                  "label" : "Title"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

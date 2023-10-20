@@ -1,0 +1,26 @@
+# dependencies
+node_modules
+
+# logs
+npm-debug.log
+
+# Nuxt build
+.nuxt
+
+# Nuxt generate
+dist
+
+# Wordpress
+wordpress
+
+# Design files
+design
+
+.env
+# Local Netlify folder
+.netlify
+
+.nuxt-storybook
+storybook-static
+
+

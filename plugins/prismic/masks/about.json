@@ -1,0 +1,74 @@
+{
+  "Main" : {
+    "content" : {
+      "type" : "StructuredText",
+      "config" : {
+        "multi" : "paragraph, preformatted, heading1, heading2, heading3, heading4, heading5, heading6, strong, em, hyperlink, image, embed, list-item, o-list-item, o-list-item",
+        "allowTargetBlank" : true,
+        "label" : "Content"
+      }
+    },
+    "pdf" : {
+      "type" : "Link",
+      "config" : {
+        "allowTargetBlank" : true,
+        "label" : "PDF"
+      }
+    },
+    "title" : {
+      "type" : "Text",
+      "config" : {
+        "label" : "Title",
+        "placeholder" : "About",
+        "useAsTitle" : true
+      }
+    },
+    "body" : {
+      "type" : "Slices",
+      "fieldset" : "Slice zone",
+      "config" : {
+        "labels" : {
+          "cv_section" : [ ]
+        },
+        "choices" : {
+          "cv_section" : {
+            "type" : "Slice",
+            "fieldset" : "CV Section",
+            "description" : "A section in the CV",
+            "icon" : "assignment",
+            "display" : "list",
+            "non-repeat" : {
+              "title1" : {
+                "type" : "StructuredText",
+                "config" : {
+                  "single" : "heading1, heading2, heading3, heading4, heading5, heading6",
+                  "label" : "Title",
+                  "placeholder" : "E.g.: Educations and Residencies"
+                }
+              }
+            },
+            "repeat" : {
+              "subsection" : {
+                "type" : "StructuredText",
+                "config" : {
+                  "single" : "heading1, heading2, heading3, heading4, heading5, heading6",
+                  "label" : "Subsection",
+                  "placeholder" : "E.g.: 2016"
+                }
+              },
+              "list" : {
+                "type" : "StructuredText",
+                "config" : {
+                  "single" : "strong, em, hyperlink, list-item",
+                  "allowTargetBlank" : true,
+                  "label" : "List",
+                  "placeholder" : "A list of entries"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

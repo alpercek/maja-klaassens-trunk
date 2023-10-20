@@ -1,0 +1,91 @@
+.link {
+  @apply cursor-pointer;
+
+  &:active {
+    @apply underline;
+  }
+}
+
+figcaption {
+  font-size: 10pt;
+  text-align: left;
+  line-height: 12pt;
+  letter-spacing: -0.005rem;
+  @apply py-2;
+}
+
+.paragraph,
+p {
+    @apply font-sans;
+    letter-spacing: -0.005rem;
+    line-height: 22px;
+    font-weight: normal;
+
+    a {
+    text-decoration: underline;}
+
+    p {
+      @apply mb-4;
+    }
+}
+
+* {
+  text-rendering: geometricPrecision;
+}
+
+.header {
+  @apply font-sans font-medium;
+
+  * {
+    @apply font-sans font-medium;
+  }
+
+  p {
+    @apply mb-0;
+  }
+}
+
+.header_image {
+  @apply w-full;
+}
+
+.cv_section {
+  @apply pb-8;
+
+  table {
+    @apply table table-fixed;
+    table-layout: fixed;
+
+    p {
+      max-width: 95ch;
+    }
+
+    &.compact {
+      * {
+        @apply mb-0;
+      }
+    }
+
+    tr {
+      td {
+        vertical-align: top;
+
+        &:first-of-type {
+          width: 94px !important;
+          
+          &.small {
+            width: 64px !important;
+          }
+        }
+
+        &:nth-child(2) {
+          width: calc(100% - 120px);
+        }
+      }
+    }
+  }
+}
+
+.content {
+  @apply pt-8;
+}
